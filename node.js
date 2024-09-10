@@ -6,6 +6,20 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
+        enunciado: "pergunta aleatoria?",
+        alternativas: [           
+            {
+                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
+                afirmacao: "Você acredita que a conscientização e a educação são ferramentas essenciais para promover a igualdade racial e combater o racismo."
+            },
+            {
+                texto:  "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
+                afirmacao: "Você considera a denúncia de discriminação e o suporte a políticas públicas inclusivas como métodos importantes para enfrentar o racismo."
+            }
+        ]
+    },
+    
+    {
         enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
         alternativas: [           
             {
@@ -18,6 +32,21 @@ const perguntas = [
             }
         ]
     },
+    {
+        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        alternativas: [           
+            {
+                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
+                afirmacao: "Você acredita que a conscientização e a educação são ferramentas essenciais para promover a igualdade racial e combater o racismo."
+            },
+            {
+                texto:  "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
+                afirmacao: "Você considera a denúncia de discriminação e o suporte a políticas públicas inclusivas como métodos importantes para enfrentar o racismo."
+            }
+        ]
+
+    },
+]
     // adicione acima as pergundas substituindo as originais
     let atual = 0;
 let perguntaAtual;
